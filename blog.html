@@ -1,0 +1,68 @@
+   <!--#USAR ESTE CABEÇALHO EM TODOS ARQUIVOS CSS E HTML
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Icaro Henrique Meniti Caron
+email_aluno: menitiicaro@gmail.com
+turma:  WEBI-ISWO28-A
+-->
+ 
+   <!DOCTYPE html> <!--Iforma o navegador que é um documento html-->
+   <html lang="pt-br"> <!-- Começa o documento HTML e define o idioma-->
+
+   <head> <!--Aqui fica a informação da pag-->
+        <meta charset="UTF-8"> <!-- Permite usar acentos -->
+        <meta name="viewport" content="Width=device=Width, initial-scale=1.0">
+        <!--Faz o site se adptar ao celular-->
+        <title>Blog de Pesca!</title> <!--Nome que aparece na aba do navegador-->
+        <link rel="stylesheet" href="static/css/styles.css"> <!--Conecta arquivo CSS-->
+   </head> <!--Fecha a parte da informação da pag-->
+
+   <body> <!--Aqui começa o conteudo que aparece no site-->    
+         
+    <nav> <!--Menu de navegação (links para outra pag)-->
+         <a href="blog.html">Home</a> <!--Link para pág inicial-->
+         <span>|</span> <!--Separador entre link-->
+         <a href="noticia.html">Noticia</a> <!--Link para pág Blog-->
+         <span>|</span>
+         <a href="contato.html">contato</a><!--Link para Contato-->
+    </nav> <!--Fecha o menu de navegação-->
+     
+    <header>  <!--Cabeçalho da página-->
+         <img src="static/img/img blog.png" alt="Meniti Pesca" class="logo">
+         <!--Adicione a imagem do logo
+         src = caminho da imagem
+         alt = descrição da imagem 
+         class = usado no CSS -->
+         <img src="static/img/img eu2.jpeg" alt="Foto de Ícaro pescando" class="foto-esquerda">
+          <!--Foto esquerda da home--> 
+         <img src="static/img/img eu.jpeg" alt="Foto de Paisagem" class="foto-direita">
+         <h1>SEJA BEM-VINDO AO MEU BLOG</h1>
+         <h2>Mundo da Pesca-Onde Cada Pescaria Vira uma Historia!</h2>
+          
+         <div class="apresentacao">
+             <span class="anzol">🪝</span>
+             <span class="texto-apresentacao">
+             Bem-vindo ao Meniti Pesca Aventura! Aqui você encontra relatos das minhas pescarias, fotos
+            dos peixes, equipamentos utilizados, iscas e dicas que aprendi durante minha aventura.  
+             </span>
+         </div>
+            
+         </p> <!--Fecha o parágrafo-->
+
+         <div class="divisor">
+            🐟 <!--Decorativo-->
+         </div>
+
+         <p class="frase">
+            "Viva Grandes Pescarias"
+         </p>
+
+    </header> <!--Fecha o cabeçalho-->
+
+    <footer>
+        <p>© 2026 - Desenvolvido por [Ícaro Meniti](FATEC Olímpia)</p>
+    </footer>
+
+    </body> <!--Fecha o conteudo da pag-->
+   </html> <!--Fecha o conteudo HTML-->

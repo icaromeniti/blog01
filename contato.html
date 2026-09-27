@@ -1,0 +1,80 @@
+ <!--#USAR ESTE CABEÇALHO EM TODOS ARQUIVOS CSS E HTML
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Icaro Henrique Meniti Caron
+email_aluno: menitiicaro@gmail.com
+turma: WEBI-ISWO28-A
+-->
+ 
+<!DOCTYPE html> <!--Iforma o navegador que é um documento html-->
+   <html lang="pt-br"> <!-- Começa o documento HTML e define o idioma-->
+
+   <head> <!--Aqui fica a informação da pag-->
+        <meta charset="UTF-8"> <!-- Permite usar acentos -->
+        <meta name="viewport" content="Width=device=Width, initial-scale=1.0">
+        <!--Faz o site se adptar ao celular-->
+        <title>Contato</title> <!--Nome que aparece na aba do navegador-->
+        <link rel="stylesheet" href="static/css/styles.css"> <!--Conecta arquivo CSS-->
+   </head> <!--Fecha a parte da informação da pag-->
+
+   <body>
+     <nav class="NThome"> <!--Menu de navegação (links para outra pag)-->
+         <a href="blog.html">Home</a> <!--Link para pág inicial-->
+         <span>|</span> <!--Separador entre link-->
+         <a href="noticia.html">Noticia</a> <!--Link para pág Blog-->
+         <span>|</span>
+         <a href="contato.html">contato</a><!--Link para Contato-->
+    </nav> <!--Fecha o menu de navegação-->
+
+    <header>  <!--Cabeçalho da página-->
+         <img class="logoFT" src="static/img/img blog.png" alt="Meniti Pesca" class="logo">
+         <!--Adicione a imagem do logo
+         src = caminho da imagem
+         alt = descrição da imagem 
+         class = usado no CSS -->
+         <img class="NoticiaFT" src="static/img/img eu2.jpeg" alt="Foto de Ícaro pescando" class="foto-esquerda">
+          <!--Foto esquerda da home--> 
+         <img class="NoticiaF" src="static/img/img eu.jpeg" alt="Foto de Paisagem" class="foto-direita">
+         <h1>ENTRE EM CONTATO</h1>
+         <h2>Vamos conversar!</h2>
+         <h2>Sugestões ou apenas trocar uma ideia sobre pesca? Me chama aqui!
+    </header>
+      </body>
+
+    <body>
+    
+    <div class="contato-item">
+         <span class="icone">📷​</span>
+    <div>
+         <strong>INSTAGRAM</strong>
+         <p>icaromeniti_</p>
+    </div>
+         <span class="seta"> ➤</span>
+    </div>
+
+    <div class="contato-item">
+         <span class="icone">✉️​</span>
+    <div>
+         <strong>E-MAIL</strong>
+         <p>menitiicaro@gmail.com</p>
+
+    </div>
+         <span class="seta"> ➤</span>
+    </div>
+
+    <div class="divisor-contato">
+         <span>🪝</span>
+    </div>
+
+    <p class="frase-contato">
+        "Pesca é mais que um hobby, é um estilo de vida."
+    </p>
+
+    <footer class="desenvolvido">
+        <p>© 2026 - Desenvolvido por [Ícaro Meniti](FATEC Olímpia)</p>
+    </footer>
+
+   </body>
+   </html>
+        
