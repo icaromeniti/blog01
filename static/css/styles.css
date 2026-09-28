@@ -40,13 +40,13 @@ h2 {
 
 nav { /*Estilo o menu*/
     text-align: center;  /*Centraliza o canteudo do cabeçalho*/
-    padding: 20px;
+    padding: 20px; /* cria espaço entre o conteudo e a borda da caixa*/
     border-bottom: 1px solid #d99a00; /*Cria uma linha abaixo do menu*/
 }
 
 .NThome {
     text-align: center; /*Centraliza o canteudo do cabeçalho*/
-    padding: 20px;
+    padding: 20px; /* cria espaço entre o conteudo e a borda da caixa*/
     border-bottom: 1px solid #d99a00; /*Cria uma linha abaixo do menu*/
 }
 
@@ -120,7 +120,7 @@ footer { /*Estilo do rodapé*/
 .NoticiaF {
     width: 590px;   /*Define a largura da foto*/
     height: auto; /*Mantém a proporção original da foto*/
-    position: absolute;
+    position: absolute; /* permite posicionar a foto livremente*/
     right: -3px; /*Coloque a foto no lado esquerdo*/
     top: 70px; /*Defina a distância do topo*/
     mask-image: linear-gradient(to left, black 0%,black 45%,transparent 100%);  /*Faz as laterais da foto desaparecerem suavemente*/
@@ -143,15 +143,15 @@ footer { /*Estilo do rodapé*/
 .anzol {
     font-size: 45px; /*Aumenta o tamanho da letra*/
     color: #8b5a16; /*Muda a cor da frase*/
-    margin-right: 25px;
-    padding-right: 20px;
+    margin-right: 25px; /*cria um espaço à direita*/
+    padding-right: 20px; /* cria interno do lado direito*/
     border-right: 1px solid #d9c2a0; 
 }
 
 .texto-apresentacao {
     font-family: Georgia, serif;
     font-size: 16px; /*Aumenta o tamanho da letra*/
-    line-height: 1.5;
+    line-height: 1.5; /* aumenta os espaços entre as linhas */
 }
 
 .contato-item {
@@ -177,7 +177,7 @@ footer { /*Estilo do rodapé*/
 }
 
 .contato-item > div {
-    flex: 1;
+    flex: 1; /* Faz o texto ocupar um espaço disponível */
 }
 
 .divisor-contato {
@@ -202,18 +202,18 @@ footer { /*Estilo do rodapé*/
 
 .frase-contato{
     text-align: center; /*Centraliza o canteudo do cabeçalho*/
-    color: #6b6258;
+    color: #6b6258; /*muda a cor da frase*/
     font-size: 18px; /*Aumenta o tamanho da letra*/
-    font-style:  italic;
-    margin-top: 20px;
+    font-style:  italic; /*deixa o texto em itálico*/
+    margin-top: 20px; /* Cria espaço acima da frase */
 }
 
 .desenvolvido {
     text-align: center; /*Centraliza o canteudo do cabeçalho*/
-    padding: 10px;
-    margin-top: 170px;
+    padding: 10px; /* Cria espaço dentro da caixinha */
+    margin-top: 170px; /* Cria espaço acima da frase */
     font-size: 15px; /*Aumenta o tamanho da letra*/
-    color: #6b5b3e;
+    color: #6b5b3e; /* muda a cor do texto */
 }
 
 /*Grande noticia*/
@@ -230,9 +230,10 @@ footer { /*Estilo do rodapé*/
 .img01 {
     width: 302px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-right: 0;
+    margin-right: 0; /* cria um espaço à direita*/
     margin-left: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;}
+    font-weight: bold;/*Deixa a letra em negrito*/
+}
 
 .noticia-item {
     display: flex; /*Coloca a imagem e o titulo lado a lado*/
@@ -241,17 +242,17 @@ footer { /*Estilo do rodapé*/
 }
 
 .noticia-item h2{
-    margin-top: 20px;
-    color: #d99a00;
+    margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px; /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 .descricao-01 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
+    display: flex; /*coloca a foto e o texto lado a lado*/
+    flex-direction: column; /*coloca um embaixo do outro*/
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -265,10 +266,10 @@ footer { /*Estilo do rodapé*/
 /*Final pirarara imagem*/
 
 .tamba01{
-    margin-top: 20px;
-    color: #d99a00;
+    margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px; /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 /*Tamba imagem 02*/
@@ -276,16 +277,16 @@ footer { /*Estilo do rodapé*/
 .img02 {
     width: 300px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-left: 0;
+    margin-left: 0; /*Mantem a imagem encostada a esquerda*/
     margin-right: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;
+    font-weight: bold; /*Deixa a letra em negrito*/
 }
 
 .descricao-02 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
+    display: flex; /*Organiza o conteudo*/
+    flex-direction: column;  /*coloca um embaixo do outro*/
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -307,25 +308,25 @@ footer { /*Estilo do rodapé*/
 /*Tamba imagem 03*/
 
 .tamba03{
-    margin-top: 20px;
-    color: #d99a00;
+    margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px;  /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 .img03 {
     width: 300px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-left: 0;
+    margin-left: 0; /*Mantem a imagem encostada a esquerda*/
     margin-right: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;
+    font-weight: bold; /*Deixa a letra em negrito*/
 }
 
 .descricao-03 {
     display: flex; /*coloca a foto e o texto lado a lado*/
     flex-direction: column; /*coloca um embaixo do outro*/
-    align-items: flex-start;
-    max-width: 400px;
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*'Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -347,25 +348,25 @@ footer { /*Estilo do rodapé*/
 /*Tamba imagem 04*/
 
 .tamba04{
-    margin-top: 20px;
-    color: #d99a00;
+    margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px;  /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 .img04 {
     width: 300px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-left: 0;
+    margin-left: 0; /*Mantem a imagem encostada a esquerda*/
     margin-right: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;
+    font-weight: bold; /*Deixa a letra em negrito*/
 }
 
 .descricao-04 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
+    display: flex; /*coloca a foto e o texto lado a lado*/
+    flex-direction: column; /*coloca um embaixo do outro*/
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -387,25 +388,25 @@ footer { /*Estilo do rodapé*/
 /*Tamba imagem 05*/
 
 .tamba05{
-   margin-top: 20px;
-    color: #d99a00;
+   margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px;  /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 .img05 {
     width: 300px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-left: 0;
+    margin-left: 0; /*Mantem a imagem encostada a esquerda*/
     margin-right: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;
+    font-weight: bold; /*Deixa a letra em negrito*/
 }
 
 .descricao-05 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
+    display: flex; /*coloca a foto e o texto lado a lado*/
+    flex-direction: column; /*coloca um embaixo do outro*/
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -425,25 +426,25 @@ footer { /*Estilo do rodapé*/
 /*Final tamba 05*/
 
 .tamba06{
-    margin-top: 20px;
-    color: #d99a00;
+    margin-top: 20px; /*Cria espaço acima do título*/
+    color: #d99a00; /*Muda a cor do título*/
     font-size: 35px;  /*Aumenta o tamanho da letra*/
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; /*Muda a fonte do título*/
 }
 
 .img06 {
     width: 300px; /*Define a largura da foto*/
     display: block; /*Permite te controlar a imagem*/
-    margin-left: 0;
+    margin-left: 0; /*Mantem a imagem encostada a esquerda*/
     margin-right: 0; /*Mantem a imagem encostada a direita*/
-    font-weight: bold;
+    font-weight: bold; /*Deixa a letra em negrito*/
 }
 
 .descricao-06 {
     display: flex; /*coloca a foto e o texto lado a lado*/
     flex-direction: column;/*coloca um embaixo do outro*/
-    align-items: flex-start;
-    max-width: 400px;
+    align-items: flex-start; /*Alinha o título pelo topo*/
+    max-width: 400px; /*Define a largura do texto*/
     font-size: 25px; /*Aumenta o tamanho da letra*/
     line-height: 1.3; /*Deixa as linhas mais espaçadas*/
 }
@@ -463,9 +464,9 @@ footer { /*Estilo do rodapé*/
 /*Final tamba 05*/
 
 .desenvolvido01 {
-    text-align: center;
-    margin-top: 80px;
-    padding: 10px;
-    font-size: 15px;
-    color: #6b5b3e;
+    text-align: center; /*Centraliza o canteudo do cabeçalho*/
+    margin-top: 80px; /* Cria espaço acima da frase */
+    padding: 10px; /* Cria espaço dentro da caixinha */
+    font-size: 15px; /*Aumenta o tamanho da letra*/
+    color: #6b5b3e; /* muda a cor do texto */
 }
