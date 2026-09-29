@@ -8,7 +8,11 @@ Este projeto foi desenvolvido como atividade acadêmica, utilizando HTML e CSS.
 
 O objetivo foi criar um blog de pesca com uma identidade visual própria, apresentando histórias de pescarias, fotos e informações sobre as experiências.
 
-## Tecnologias utilizadas
+## 🌐 Acesse o site
+
+[👉 Clique aqui para acessar o Meniti Pesca Aventura](https://icaromeniti.github.io/blog01/)
+
+## 💻 Tecnologias utilizadas
 
 - HTML
 - CSS
